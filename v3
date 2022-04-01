@@ -1,0 +1,14 @@
+#include <stdio.h>
+int main()
+{
+	char str[]="2+2*3+2/2-1";
+	int a=str[0]-'0';
+	int i=(str[2]-'0')*(str[4]-'0');
+	int y=(str[6]-'0')/(str[8]-'0');
+	int x=str[10]-'0';
+	int s;
+	s=a+i+y-x;
+	printf("s=%d\n",s);
+	
+	return 0;
+}
