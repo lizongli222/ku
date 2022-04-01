@@ -1,0 +1,10 @@
+#include <stdio.h>
+int main()
+{
+	char str[]="3+4";
+	int l=str[0]-'0';
+	int r=str[2]-'0';
+	int a=l+r;
+	printf("%d\n",a);
+	return 0;
+}
